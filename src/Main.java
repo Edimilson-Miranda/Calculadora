@@ -24,9 +24,10 @@ public class Main {
            System.out.println("Digite seu segundo número: ");
            double numero2 = sc.nextDouble();
 
+           System.out.println();
            double resultado = calcular(escolha, numero1, numero2);
            System.out.println("-------------------------");
-           System.out.println("Resultado: " + resultado);
+           System.out.println("\nResultado: " + resultado);
 
 
        }while (true);
